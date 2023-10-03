@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Cidades Portuguesas</title>
+       <style>
+
+        body {
+            background-color: #48a75d;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Braga</h1>
+<h1>Faro</h1>
+<h1>Porto</h1>
+<h1>Olhão</h1>
+<h1>Lisboa</h1>
+<h1>Ponta Delgada</h1>
+<h1>Ribeira Grande</h1>
+{% if nome and idade %}
+    <h2>{{nome}} tem {{idade}} anos de idade.</h2>
+{% else %}
+    <h2>Não existem, dados.</h2>
+{% endif %}
+
+<h3><a href="index.html">Home</a></h3>
+</body>
+</html>
